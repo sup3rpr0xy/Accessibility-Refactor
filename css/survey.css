@@ -13,7 +13,12 @@ form {
   display: inline-block;
 }
 
-input:focus, textarea:focus {
+/* FOCUS STATES */
+
+input:focus, textarea:focus, 
+button:focus, 
+select:focus, 
+input[type="radio"]:focus {
   background-color: yellow;
 }
 
